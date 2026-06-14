@@ -1,0 +1,2 @@
+user_id,username,anomaly_type,confidence,risk_level
+"USR00011","robert.white","Dormant Privileged User",0.82,"HIGH"

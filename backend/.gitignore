@@ -1,0 +1,11 @@
+# Environment variables (contains secrets)
+.env
+
+# Node modules
+node_modules/
+
+# Data files (large generated CSVs and DB cache)
+data/fallback_db.json
+
+# Build output
+dist/

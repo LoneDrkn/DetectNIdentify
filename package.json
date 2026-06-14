@@ -1,0 +1,13 @@
+{
+  "name": "access-role-audit",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspaces --if-present",
+    "build": "npm run build --workspace=frontend",
+    "start": "npm run build --workspace=frontend && cd backend && node --import tsx server.ts"
+  }
+}
